@@ -94,8 +94,7 @@ Compilar la app requiere instalar [Carthage](https://github.com/Carthage/Carthag
 Como la app usa CloudKit,
 Since the app uses CloudKit, cuando la compilas tu mismo, todas las funcionalidades dependientes de CloudKit no estarán disponibles. CloudKit requiere un provisioning profile y una cuenta de desarrollador de pago.
 
-Para compilar la app tu mismo sin la necesidad de una cuenta de desarrollador y el contenedor CloudKit
-To build the app yourself without the need for a developer account and a CloudKit container, **siempre usa la `WWDC` target al compilar**. La `WWDC with iCloud` target requiere una cuenta de desarrollador paga y un contenedor CloudKit, que no podrá crear debido al identificador de paquete de la aplicación.
+Para compilar la app tu mismo sin la necesidad de una cuenta de desarrollador y el contenedor CloudKit, **siempre use la `WWDC` target al compilar**. La `WWDC with iCloud` target requiere una cuenta de desarrollador de pago y un contenedor CloudKit, que no podrá crear debido al identificador de paquete de la aplicación.
 
 ![schedule](./screenshots/v7/BuildTarget.png)
 
